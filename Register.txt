@@ -1,0 +1,72 @@
+							Register code
+							=============
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>register</title>
+    <style>
+      body{
+        font-size: medium;
+      }
+      
+      div{
+        border: 1cm;
+        height: auto;
+        width: auto;
+        border-collapse: 2;
+      }
+      
+      
+      .required::after{
+               content: '*';
+                color: red;
+      }
+    
+    </style>
+</head>
+<body background="file:///C:/Users/HI/Downloads/a.webp"><center>  <br><br><form><div class="box">
+<h1>Register Your Account </h1>
+  <label class="required"></label>
+ Firstname:-<input type="text" id="firstname" placeholder="first name" required><br><br>
+ 
+Middlename:-<input type="text" id="Middlename" placeholder="Middlename"><br><br>
+<label class="required"></label>
+  lastname:-<input type="text" id="lasstname" placeholder="lastname" required><br><br>
+  <label class="required"></label>
+  mail:-<input type="mail" id="mail" placeholder="mail@gmail.com" required><br><br>
+  <label class="required"></label>  
+  Gender<br>
+
+  <label class="required"></label>
+      Male<input type="radio" id="male" required>         <label class="required"></label>
+      Female<input type="radio" id="female">         <label class="required"></label>
+      Others<input type="radio" id="Others"> <br><br>
+      <label class="required"></label>
+      Address:-<input type="text" id="Address" placeholder="Adress" required><br><br>
+      <label class="required"></label>
+      Mobilenumber:-<input type="mobilenumber" id="number" placeholder="Mobilenumber" pattern="[0-9]" required><br><br>
+      <label class="required"></label>
+  Password:-<input type="Password"  id="Password" placeholder="password" pattern="[a-zA-Z0-9]"required><br><br>
+  <label class="required"></label>
+  RetypePassword:-<input type="text" id="RetypePassword" placeholder="RetypePassword" pattern="[a-zA-Z0-9]" required><br><br>
+  <a href="subbmit.html" ><button >subbmit</button></a>
+</center>
+</div></form>
+</body>
+</html>
+					Submit code
+					===========
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Submitt</title>
+    </head>
+    <body> 
+     <marquee direction="up" ><center><img src="https://thumbs.dreamstime.com/b/successfully-completed-vector-seal-isolated-white-background-168286016.jpg" width="100px" height="100px" >
+Sucessfull completed your registertion<br>
+Thank you</center></marquee>   
+<center><a href="login.html" >  <button>ok</button></a></center>  </body>
+
+</html>
